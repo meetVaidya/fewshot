@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FewshotKWS (Website)
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The FewshotKWS is a powerful web application built with Next.js that provides comprehensive tools for analyzing audio files. It features fewshot keyword analysis, spectrogram visualization, waveform display, and various other audio analysis capabilities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- Audio Data Overview
+  - File details display
+  - Interactive audio player
+  - Spectrogram visualization
+  - Waveform display
+  - Audio clips table
+
+- Keyword Extraction and Analysis
+  - Keyword list with frequency, timestamps, and sentiment
+  - Keyword clustering with dendrogram visualization
+  - Keyword sentiment analysis
+  - Interactive word cloud
+
+- Few-Shot Learning Analysis
+  - Model performance metrics
+  - Confusion matrix visualization
+  - Precision-Recall curve
+  - Model customization options
+
+- User Interaction and Annotation
+  - Annotation toolbar for marking audio segments
+  - Transcription integration
+  - Custom report generation
+  - Search functionality
+
+## Technologies Used
+
+- Next.js 13 with App Router
+- React 18
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- Chart.js for data visualization
+- WaveSurfer.js for waveform display
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/meetVaidya/fewshot.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd fewshot
+   ```
+
+3. Install the dependencies:
+   ```
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+   ```
+   npm run dev
+   ```
+
+2. Open your browser and visit `http://localhost:3000`
+
+3. Upload an audio file and explore the various analysis features.
+
+## Building for Production
+
+To create a production build, run:
+
+```
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, to start the production server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+Contributions to the Audio Analysis Dashboard are welcome. Please follow these steps to contribute:
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Your Name - vaidyameet2004@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project Link: [https://github.com/meetVaidya/fewshot](https://github.com/meetVaidya/fewshot)
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Chart.js](https://www.chartjs.org/)
+- [WaveSurfer.js](https://wavesurfer-js.org/)
